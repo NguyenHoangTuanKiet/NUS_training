@@ -2,8 +2,10 @@ traiee: kietnht@nustechnology.com
 trainer: giaunv@nustechnology.com
 
 desktop test: https://quiz.nustechnology.com/index.php/login
+kietnht@nustechnology.com / 45tgbhu89
 
 blog: https://dev.nustechnology.com/cau-hinh-ssh-cho-2-tai-khoan-github-tren-cung-1-may-tinh/
+kietnht@nustechnology.com / 12345678
 
 Sublime config
 Preferences > Settings-User
