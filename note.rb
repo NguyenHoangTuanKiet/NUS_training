@@ -7,6 +7,8 @@ kietnht@nustechnology.com / 45tgbhu89
 blog: https://dev.nustechnology.com/cau-hinh-ssh-cho-2-tai-khoan-github-tren-cung-1-may-tinh/
 kietnht@nustechnology.com / 12345678
 
+Git quiz https://quiz.nustechnology.com
+
 Sublime config
 Preferences > Settings-User
 {
