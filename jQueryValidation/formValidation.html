@@ -1,66 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-</head>
+  <head>
+    <title></title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.validate.js"></script>
 
-<script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="jquery.validate.js"></script>
-
-<style type="text/css">
-  #basicForm label.error {
-    display: inline-block;
-    color: red;
-  }
-</style>
-
-<script>
-  $(document).ready ( function() {
-    $("#basicForm").validate({
-      rules: {
-        fname: {
-          required: true,
-          minlength: 2
-        },
-        lname: {
-          required: true,
-          minlength: 2
-        },
-        email: {
-          required: true,
-          email: true
-        }
-      },
-      messages: {
-        fname: {
-          required: "Enter your firstname",
-          minlength: "Must be at least 2 charaters"
-        },
-        lname: {
-          required: "Enter your lastname",
-          minlength: "Must be at least 2 charaters"
-        },
-        email: "Enter a valid email address"
+    <style type="text/css">
+      #basicForm label.error {
+        display: inline-block;
+        color: red;
       }
-    });
-  } )
-</script>
+    </style>
 
-<body>
-  <h2>Basic Information</h2>
+    <script>
+      $(document).ready ( function() {
+        $("#basicForm").validate({
+          rules: {
+            fname: {
+              required: true,
+              minlength: 2
+            },
+            lname: {
+              required: true,
+              minlength: 2
+            },
+            email: {
+              required: true,
+              email: true
+            }
+          },
+          messages: {
+            fname: {
+              required: "Enter your firstname",
+              minlength: "Must be at least 2 charaters"
+            },
+            lname: {
+              required: "Enter your lastname",
+              minlength: "Must be at least 2 charaters"
+            },
+            email: "Enter a valid email address"
+          }
+        });
+      } )
+    </script>
+  </head>
+  <body>
+    <h2>Basic Information</h2>
 
-<form action="" autocomplete="on" id="basicForm">
-  <label for="firstname">First name:</label>
-  <input id="firstname" type="text" name="fname"><br>
+    <form action="" autocomplete="on" id="basicForm">
+      <label for="firstname">First name:</label>
+      <input id="firstname" type="text" name="fname"><br>
 
-  <label for="lastname">Last name:</label>
-  <input id="lastname" type="text" name="lname"><br>
+      <label for="lastname">Last name:</label>
+      <input id="lastname" type="text" name="lname"><br>
 
-  <label for="email">Email:</label>
-  <input id="email" name="email" autocomplete="off"><br>
+      <label for="email">Email:</label>
+      <input id="email" name="email" autocomplete="off"><br>
 
-  <input type="submit">
-</form>
+      <input type="submit">
+    </form>
 
-</body>
+  </body>
 </html>
