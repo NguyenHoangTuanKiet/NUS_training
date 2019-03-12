@@ -1,0 +1,21 @@
+Question 40)
+
+Cho hash status_mapping = {pending: 0, approved: 1, declined: 2}
+
+1/ Làm sao để duyệt qua từng cặp key value trong hash và in ra màn hình theo format sau "key, value"
+2/ Làm sao để lấy ra mảng các key của hash , cụ thể: [:pending, :approved, :declined]
+3/ Lám sao để lấy ra mảng các value của hash, cụ thể: [0, 1, 2]
+
+4/ Làm sao để lấy ra key có value là 1
+5/ Làm sao để lấy ra value có key là declined
+
+6/ Làm sao để xóa cặp key value có key là pending
+7/ Làm sao để xóa cặp key value nếu (value % 2 + 3 / 700 > 7)
+
+8/ Làm sao để kiểm tra hash có key :not_response hay không
+9/ Làm sao để kiểm tra hash có value 3 hay không
+
+10/ Làm cách nào để thêm cặp key: value - not_response: 3 vào hash
+
+11/ Cho biết kết quả của status_mapping.merge pre_defined: -1, pending: 5 . Hàm này có làm thay đổi hash ban đầu không
+

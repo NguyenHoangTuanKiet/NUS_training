@@ -1,0 +1,19 @@
+Question 73)
+
+Cho biết kết quả của đoạn chương trình sau:
+
+class Parent
+def testing a, b
+a - b
+end
+end
+
+class Child < Parent
+def testing a, b
+puts a + b
+puts super(a, b)
+end
+end
+
+
+Child.new.testing 4, 1

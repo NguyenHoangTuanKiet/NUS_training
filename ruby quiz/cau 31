@@ -1,0 +1,25 @@
+Question 31)
+
+Cho array sau: nums = [7, 9, 22, 4, 5, 7, 8, nil, 100, -7, 9, 0, nil, nil].
+
+1/ Nêu công dụng của nums.fetch(100, nil) 
+
+2/ Làm sao để kiểm tra mảng của rỗng ko
+3/ Làm sao để kiểm tra mảng có chứa số 23 không
+
+4/ Làm sao để remove hết các phần tử nil ra khỏi mảng: không làm thay đổi mảng gốc / làm thay đổi mảng gốc
+5/ Làm sao để các phần tử trong mảng là duy nhất: không làm thay đổi mảng gốc / làm thay đổi mảng gốc
+
+6/ Phân biệt each và map
+
+7/ Làm sao để tạo ra mảng mới từ mảng ban đầu, giá trị mỗi phần tử trong mảng mới bằng phần tử trong mảng ban đầu * 5
+8/ Làm sao để nâng giá trị mỗi phần tử trong mang ban đầu tăng lên 2 đơn vị (+2)
+
+9/ Làm sao để tạo ra mảng mới từ mảng ban đầu, điều kiện là các phần tử phải > 18
+10/ Làm sao để remove các phần tử <= 18 khỏi mảng gốc
+
+11/ Làm sao để tạo ra chuỗi "7,9,22,4,5,7,8,100,-7,9,0"
+
+12/ Làm sao để sắp xếp mảng này theo thứ tự tăng dần
+13/ Làm sao để sắp xếp mảng này theo thứ tự giảm dần
+14/ Làm sao để sắp xếp mảng này theo thứ tự số dư khi % cho 3 tăng dần

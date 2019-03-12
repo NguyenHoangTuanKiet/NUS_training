@@ -1,0 +1,12 @@
+Question 32)
+
+Cho 2 mảng sau: mang1 = [1, 2, 5, 7], mang2 = [5, 7, 10, 12]
+
+1/ Làm sao để lấy ra các phần tử thuộc mang1 mà không thuộc mảng 2
+2/ Làm sao để lấy ra các phần tử thuộc cả 2 mảng
+3/ Làm sao để lấy ra các phần tử thuộc mang1 hoặc thuộc mang2
+
+4/ Làm sao để kiểm tra 2 mảng có giống nhau không(bỏ qua thứ tự các phần tử và sự lặp lại của các phần tử), ví dụ: [1, 2, 3] giống [2, 1, 3], [1, 2, 3] giống [2, 1, 3, 3]
+
+5/ Làm sao để kiểm tra 2 mảng có giống nhau không(xét luôn cả thứ tự các phần tử và sự lặp lại của các phần tử), ví dụ: [1, 2, 3] giống [1, 2, 3], [1, 2, 3] không giống [2, 1, 3, 3] không giống [2, 1, 3]
+

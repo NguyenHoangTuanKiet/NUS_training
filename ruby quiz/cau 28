@@ -1,0 +1,28 @@
+Question 28)
+
+Cho chuỗi sau: names = "nga trung hoa hiền nga trung hoa hiền kiên hà hải".
+
+1/ Làm sao để đếm độ dài của chuỗi
+
+2/ Làm sao để lấy được 3 ký tự (đầu tiên / cuối cùng): không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+3/ Làm sao để lấy ra các ký tự từ vị trí 3 đến vị trí 7: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+
+4/ Làm sao để thêm "vinh " vào đầu chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+5/ Làm sao để thêm " vinh" vào cuối chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+6/ Làm sao để thêm " vinh" vào vị trí 3 của chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+
+7/ Làm sao để thay thế tất cả "nga" bằng "nhân": không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+8/ Làm sao để thay thế các ký tự từ vị trí số 3 đến 7 bằng "nhân": không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+
+9/ Làm sao để xoá tất cả "nga" ra khỏi mảng: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+
+10/ Làm sao để viết hoa ký tự đầu tiên của chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+11/ Làm sao để viết hoa tất cả chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+12/ Làm sao để viết thường tất cả chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+
+13/ Làm sao để kiểm tra chuỗi có chứa "dương" hay không
+14/ Làm sao để kiểm tra chuỗi có empty hay không
+
+15/ Làm sao để remove tất cả space khỏi chuỗi: không làm thay đổi chuỗi gốc / làm thay đổi chuỗi gốc
+
+16/ Làm sao để tạo ra mảng ["nga", "trung", "hoa", "hiền", "nga", "trung", "hoa", "hiền", "kiên", "hà", "hải"]

@@ -1,0 +1,22 @@
+Question 30)
+
+Cho array sau: nums = [7, 9, 22, 4, 5, 7, 8, nil, 100, -7, 9, 0, nil, nil].
+
+1/ Làm sao để đếm số phần tử của mảng
+2/ Làm sao để đếm số phần tử chẳn của mảng
+
+3/ Làm sao để truy xuất phần tử (đầu tiên / cuối cùng) của mảng
+4/ Làm sao để lấy ra 5 phần tử (đầu tiên / cuối cùng) của mảng
+5/ Lám sao để lấy ra lát cắt từ phần tử thứ 2 đến thứ 4
+
+6/ Làm sao để thêm số 3 vào đầu mảng, cuối mảng
+7/ Làm sao để thêm số 3 vào vị trí số 2 của mảng
+
+8/ Làm sao để rút phần tử đầu tiên ra khỏi mảng
+9/ Làm sao để rút phần tử cuối cùng ra khỏi mảng
+
+10/ Làm sao để xóa tất cả các số 9 ra khỏi mảng
+11/ Lám sao để xóa phần tử tại vị trí số 5 ra khỏi mảng
+
+12/ Duyệt qua các phần tử trong mảng, in ra màn hình (giá trị phần tử đó * 3)
+13/ Duyệt qua các phần tử trong mảng, in ra màn hình (giá trị phần tử đó * 3 + index phần tử đó)
