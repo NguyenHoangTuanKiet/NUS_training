@@ -11,6 +11,10 @@
 
   <style type="text/css">
 
+    nav.navbar.navbar-default {
+      margin-bottom: 0px;
+    }
+
     .navbar-default .navbar-nav > li > a {
       color: white;
       font-weight: 1000;
@@ -19,11 +23,6 @@
     .navbar-nav > li > a {
       padding-right: 100px;
       padding-left: 0px
-    }
-
-    .navbar-nav > li > img {
-      padding-top: 0px;
-      padding-bottom: 0px;
     }
 
     .navbar-default a.navbar-brand{
@@ -75,6 +74,20 @@
       color: #44a;
     }
 
+    a#image-profile {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    .col-lg-2.sidenav {
+      padding-left: 3%;
+      padding-top: 30px;
+    }
+
+    .row.image-area {
+      padding-top: 50px;
+    }
+
   </style>
 
   <body>
@@ -91,8 +104,8 @@
         </form>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><img src="lovely-sun.png" width="50px" height="50px"></li>
-          <li><a href="">Hieu Nguyen</a></li>
+          <!-- <li><img src="lovely-sun.png" width="50px" height="50px"></li> -->
+          <li><a id="image-profile" href=""><img src="lovely-sun.png" width="50px" height="50px" align="middle"> Hieu Nguyen</a></li>
           <li><a href="">Log out</a></li>
         </ul>
       </div>
@@ -101,7 +114,7 @@
     <div class="container-fluid">
       <div class="row">
 
-        <div class="col-lg-2 sidenav">
+        <div class="col-lg-2 sidenav col-md-12">
           <ul class="nav nav-pills nav-stacked">
             <li><a href="">Feeds</a></li>
             <li><a href="">My Photos</a></li>
@@ -109,34 +122,39 @@
           </ul>
         </div>
 
-        <div class="col-lg-5">
-          <div class="thumbnail">
-            <img src="2.jpg" alt="..." width="200px" height="200px">
-            <div class="caption">
-              <p>Thumbnail label</p>
-              <p>...</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-              <div class="image-meta">
-                <p class="liked-number"><span class="glyphicon glyphicon-heart"></span> 123</p>
-                <p class="updated-date">Updated at 4:56pm 01/04/2018</p>
+        <div class="col-lg-10 col-md-12">
+          <div class="row image-area">
+            <div class="col-lg-6 col-md-12">
+              <div class="thumbnail">
+                <img src="2.jpg" alt="...">
+                <div class="caption">
+                  <p>Thumbnail label</p>
+                  <p>...</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                  <div class="image-meta">
+                    <p class="liked-number"><span class="glyphicon glyphicon-heart"></span> 123</p>
+                    <p class="updated-date">Updated at 4:56pm 01/04/2018</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-lg-5">
-          <div class="thumbnail">
-            <img src="2.jpg" alt="..." width="200px" height="200px">
-            <div class="caption">
-              <p>Thumbnail label</p>
-              <p>...</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-              <div class="image-meta">
-                <p class="liked-number"><span class="glyphicon glyphicon-heart"></span> 123</p>
-                <p class="updated-date">Updated at 4:56pm 01/04/2018</p>
+            <div class="col-lg-6 col-md-12">
+              <div class="thumbnail">
+                <img src="3.jpg" alt="...">
+                <div class="caption">
+                  <p>Thumbnail label</p>
+                  <p>...</p>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                  <div class="image-meta">
+                    <p class="liked-number"><span class="glyphicon glyphicon-heart"></span> 123</p>
+                    <p class="text-right">Updated at 4:56pm 01/04/2018</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
 
       </div>
